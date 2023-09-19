@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body style="background-color: #4F5A6B;">
+        <table style="width: 70%; margin:auto; border-collapse: collapse;">
+            <tr style="text-align: center;">
+                <td>
+                    <img src="images/auto-logo.png" alt="auto-repair" width="477px" height="305px">
+                </td>
+            </tr>
+            <tr>
+        </table>
+        <table style="border-collapse: collapse; margin: auto; background-color: black; width: 477px; height: 203px; border-radius: 20px; margin-top: 30px">
+                <td>
+                    <div style="padding: 0 2em;">
+                        <p style="font-size: 1.5em; font-family: Roboto; color: #E9E9E9;">Hi {{Recipient.FirstName}}, <br>Thank you for your order!</p>
+                        <p style="font-size: 1.063em; font-family: Roboto; color: #E9E9E9;">Your order (#289372) was successfully placed and your payment has been processed. Here is your order summary:</p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <table style="width: 477px; margin: auto; margin-top: 2em;">
+            <tr style="text-align: center;">
+                <td style="margin: auto; background-color: black; width: 477px; height: 203px; border-radius: 20px; margin-top: 30px;">
+                    <table style="border-collapse: collapse; margin: auto; width: 80%; text-align: center;">
+                        <tr style="border-bottom: medium solid #ccc;">
+                            <td colspan="3">
+                                <p style="font-size: 24px; font-family: Roboto; text-align: center; color: #E9E9E9;">Order Summary</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="font-size: 17px; font-family: Roboto; text-align: left; color: #E9E9E9;">Oil Change</p>
+                            </td>
+                            <td>
+                                <p style="font-size: 17px; font-family: Roboto; color: #E9E9E9;">1</p>
+                            </td>
+                            <td>
+                                <p style="font-size: 17px; font-family: Roboto; text-align: right; color: #E9E9E9;">$58.00</p>
+                            </td>
+                        </tr>
+                        <tr style="border-bottom: medium solid #ccc;">
+                            <td>
+                                <p style="font-size: 17px; font-family: Roboto; text-align: left; color: #E9E9E9;">Tire Rotation</p>
+                            </td>
+                            <td>
+                                <p style="font-size: 17px; font-family: Roboto; color: #E9E9E9;">1</p>
+                            </td>
+                            <td>
+                                <p style="font-size: 17px; font-family: Roboto; text-align: right; color: #E9E9E9;">$74.00</p>
+                            </td>
+                        </tr>
+                        <tr style="border-bottom: medium solid #ccc;">
+                            <td>
+                                <p style="font-size: 17px; font-family: Roboto; text-align: left; color: #E9E9E9;">TAX</p>
+                                <img>
+                            </td>
+                            <td>
+                                <p style="font-size: 17px; font-family: Roboto; color: #E9E9E9;">13%</p>
+                            </td>
+                            <td>
+                                <p style="font-size: 17px; font-family: Roboto; text-align: right; color: #E9E9E9;">$10.15</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+            
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="font-size: 22px; font-family: Roboto; text-align: left;color: #E9E9E9;">Total</p>
+                            </td>
+                            <td colspan="2">
+                                <p style="font-size: 22px; font-family: Roboto; text-align: right; color: #E9E9E9;">$142.15</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <table style="border-collapse: collapse; margin: auto; background-color: black; width: 477px; height: 203px; border-radius: 20px; margin-top: 30px;">
+            <tr>
+                <td style="text-align: center; padding: 2em 2em 0.5em;">
+                    <img src="images/auto-twitter.png" alt="auto-twitter" style="width: 27px; height: 23px; margin-right: 2em; margin-right: 2em;">
+                    <img src="images/auto-facebook.png" alt="auto-facebook" style="width: 28px; height: 28px; margin-right: 2em;">
+                    <img src="images/auto-instagram.png" alt="auto-instagram" style="width: 28px; height: 28px; margin-right: 2em;">
+                    <img src="images/auto-youtube.png" alt="auto-youtube" style="width: 28px; height: 19px; margin-bottom: 4px;">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p style="text-align: center; font-size: 14px; font-family: Roboto; color: #F5F5F5;">@ {{Current_Year}} Autorepair Inc. <br>{{Organization.Address}}</p>
+                </td>
+            </tr>
+            <tr>
+                <td style="padding: 0 2em 1em;">
+                    <p style="font-size: 14px; font-family: Roboto; color: #F5F5F5; font-weight: 300; line-height: 110%;">Update your <span style="color: #CE0012;">email preferences</span> to choose the types of emails you <br>receive, or you can <span style="color: #CE0012;">{{Unsubscribe}}</span> from all future emails.</p>
+                </td>
+            </tr>
+        </table>
+    </body>
+    </html>
+
+    <span style="color: #CE0012;"></span>
